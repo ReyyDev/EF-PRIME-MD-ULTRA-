@@ -10,10 +10,10 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< EF-PRIME-MD-ULTRA SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['265888123456'];
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['6285859738152'];
 
 global.packname = process.env.PACKNAME || 'EF-PRIME-MD';
-global.author = process.env.AUTHOR || 'FrankKaumbaDev';
+global.author = process.env.AUTHOR || 'Reyfnn';
 global.botname = process.env.BOT_NAME || 'EF-PRIME-MD-ULTRA';
 global.listprefix = process.env.PREFIX ? process.env.PREFIX.split(',') : ['.','!','+','#'];
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆'];
@@ -25,12 +25,12 @@ global.pairing_code = process.env.PAIRING_CODE !== 'false';
 global.number_bot = process.env.BOT_NUMBER || '';
 
 global.my = {
-	yt: process.env.MY_YOUTUBE || 'https://youtube.com/@efkidgamer',
-	gh: process.env.MY_GITHUB || 'https://github.com/efkidgamerdev',
-	gc: process.env.MY_GROUP || 'https://whatsapp.com/channel/0029VbBMv2IDeON5eOz38p1M',
+	yt: process.env.MY_YOUTUBE || 'https://youtube.com/',
+	gh: process.env.MY_GITHUB || 'https://github.com/ReyyDev',
+	gc: process.env.MY_GROUP || 'https://whatsapp.com/channel/',
 	ch: process.env.MY_CHANNEL || '120363319098372999@newsletter',
-	web: process.env.MY_WEBSITE || 'frankkaumba. gamer',
-	email: process.env.MY_EMAIL || 'efkidgamer@gmail.com'
+	web: process.env.MY_WEBSITE || 'reyyfn. gamer',
+	email: process.env.MY_EMAIL || 'spinven@gmail.com'
 }
 
 global.limit = {
@@ -95,7 +95,7 @@ global.features = {
 global.branding = {
 	name: 'EF-PRIME-MD-ULTRA',
 	version: '3.0.1',
-	author: 'FrankKaumbaDev',
+	author: 'Reyfnn',
 	github: 'https://github.com/efkidgamerdev/EF-PRIME-MD-ULTRA',
 	support: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 }
